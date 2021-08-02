@@ -8,12 +8,12 @@
 <br>  
 <form>  
   
-<label> Firstname: </label>         
-<input type="text" name="firstname" size="15"/> <br> <br>  
-<label> Middlename: </label>     
-<input type="text" name="middlename" size="15"/> <br> <br>  
-<label> Lastname: </label>         
-<input type="text" name="lastname" size="15"/> <br> <br>  
+<label> Firstname: <br></label>         
+<input type="text" name="firstname" size="15"/> <br>
+<label> Middlename: <br></label>     
+<input type="text" name="middlename" size="15"/> <br> 
+<label> Lastname: <br></label>         
+<input type="text" name="lastname" size="15"/> <br> <br>
   
 <label>   
 Course :  
@@ -40,7 +40,14 @@ Course :
 <label>   
 Phone :  
 </label>  
-<input type="text" name="country code"  value="+91" size="2"/>   
+<select>
+<option name="country code"  value="+91" >+91</option>
+<option name="country code"  value="+1" >+1</option>
+<option name="country code"  value="+44" >+44</option>
+<option name="country code"  value="+52" >+52</option>
+<option name="country code"  value="+86" >+86</option>
+<option name="country code"  value="+61" >+61</option>
+</select>   
 <input type="text" name="phone" size="10"/> <br> <br>  
 Address  
 <br>  
@@ -49,10 +56,10 @@ Address
 <br> <br>  
 Email:  
 <input type="email" id="email" name="email"/> <br>    
-<br> <br>  
+<br> 
 Password:  
 <input type="Password" id="pass" name="pass"> <br>   
-<br> <br>  
+<br> 
 Re-type password:  
 <input type="Password" id="repass" name="repass"> <br> <br>  
 <input type="button" value="Submit"/>  
